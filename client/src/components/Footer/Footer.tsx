@@ -1,7 +1,8 @@
 import "./Footer.style.scss";
 
 function Footer() {
-  return <div >© 2023 Carleton University</div>;
+  
+  return <div><center>© 2023 Carleton University</center></div>;
 } 
 
 export default Footer;
