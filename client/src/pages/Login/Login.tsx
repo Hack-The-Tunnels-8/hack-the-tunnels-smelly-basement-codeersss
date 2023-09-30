@@ -31,6 +31,11 @@ function Login() {
         <button onClick={() => attemptLogin()}>
           Login (as user set in code)
         </button>
+        <div>
+        <input placeholder="Email"></input>
+        </div>
+        <input placeholder="Password"></input>
+        
         {message && <p>{message}</p>}
       </div>
     </Page>
